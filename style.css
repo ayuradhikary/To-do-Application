@@ -2,22 +2,52 @@ html {
   height: 100%;
   width: 100%;
 }
-.hide{
+
+.hide {
   display: none;
 }
-.submit{
+
+.submit {
   color: green;
 }
-.remove{
+
+/* .remove{
  color: red;
   display: flex;
-}
-.para{
+} */
+.para {
   color: red;
 }
-.edit{
+
+/* .edit{
   color: orange;
-}
-.update{
+} */
+/* .update{
   color:yellow;
+} */
+
+.head {
+  color: darkblue;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: middle;
+}
+
+.main_div {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 5px 10px;
+  border: 1px solid #414141;
+}
+
+.wrapper span {
+  display: block;
+  margin-right: 16px;
 }
